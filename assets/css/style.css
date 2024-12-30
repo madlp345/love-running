@@ -23,7 +23,7 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     position: fixed;
     z-index: 99;
     width: 100%;
