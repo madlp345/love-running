@@ -66,7 +66,7 @@ h1 {
 nav {
     position: absolute;
     background-color: #ffffff;
-    width:100%;
+    width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -91,6 +91,7 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
