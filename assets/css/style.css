@@ -135,6 +135,6 @@ footer {
 /* Media query: laptops and larger (992px and up)*/
 @media screen and (min-width:992x) {
     #menu a:hover{
-        //*border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid #3a3a3a;
     }
 }
