@@ -118,6 +118,34 @@ main {
     color: #ffffff;
 }
 
+#reasons {
+    width:90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits-physical p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -163,6 +191,10 @@ main {
         /* Push main content down to accomodate larger header*/
         margin-top: 79px;
     }
+    #cover-text{
+        width: 300px;
+        right: 50px;
+    }
 }
 
 /* Media query: laptops and larger (992px and up)*/
@@ -171,8 +203,5 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
     /* Hero */
-    #cover-text{
-        width: 300px;
-        right: 50px;
-    }
+    
 }
