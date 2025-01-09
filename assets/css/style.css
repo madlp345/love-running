@@ -27,6 +27,9 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
 /* Header */
 header {
     background-color: #ffffff;
@@ -177,11 +180,19 @@ hr {
     Each div will expand to fill the available space on its row*/
     flex-basis: 200px;
     flex-grow: 1;
+    /* Creates a grid of meetup time dives over the background images*/
+    border: 2px solid white;
 }
 times h3 {
     /* Override the heading color set in general styles*/
     color:#fafafa;
 }
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
